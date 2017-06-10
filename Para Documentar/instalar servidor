@@ -1,0 +1,39 @@
+sudo pip install python-social-auth
+
+sudo pip install social-auth-app-django
+
+sudo pip install django-registration
+
+sudo pip install django-bootstrap3
+
+sudo pip install django-richtextfield
+
+sudo pip install django-ckeditor
+
+pip install --upgrade django (versión 1.11.1)
+
+sudo pip install django-star-ratings
+
+python manage.py runserver
+
+Para los comentarios: https://django-contrib-comments.readthedocs.io/en/latest/quickstart.html
+
+sudo nano /etc/apache2/sites-enabled/marc-solacom2.conf
+
+ruta collstatic: /ubuntu/Boooker/mysite/static/static-only
+
+en el servidor:
+sudo chmod 775 db.sqlite3
+sudo chmod 775 mysite
+Tutorial: sudo chown :www-data mysite
+
+install image y Pillow: https://stackoverflow.com/questions/8863917/importerror-no-module-named-pil
+
+sudo apt-get install libmagickwand-dev: http://docs.wand-py.org/en/0.4.1/guide/install.html -->problemas con el formato de imagen
+
+sudo chmod -R 775 static
+sudo chown -R :www-data static
+
+https://www.digitalocean.com/community/tutorials/how-to-serve-django-applications-with-apache-and-mod_wsgi-on-ubuntu-14-04
+
+
